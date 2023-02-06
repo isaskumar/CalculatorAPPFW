@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 06 20:36:56 CET 2023</td>
+</tr>
+<tr><td>Total time:</td><td>76 seconds (76902 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='calulator.qa.test.CalculatorHomePageTest.BTC_001_Check_addition_for_two_numbers()'><b>BTC_001_Check_addition_for_two_numbers</b><br>Test class: calulator.qa.test.CalculatorHomePageTest<br/>
+<a href="#Output-744316958" onClick='toggleBox("Output-744316958", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-744316958" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-744316958">
+<a href="javascript:toggleElement('BTC_001_Check_addition_for_two_numbers_06022023203707', 'block')" title="Click to view test log"><b>BTC_001_Check_addition_for_two_numbers</b></a><br/>
+<table class="stepsTable" id="BTC_001_Check_addition_for_two_numbers_06022023203707"><br/>
+<tr><td colspan = "3"  class="headerTest">Start BTC_001_Check_addition_for_two_numbers_06022023203707 [06/02/2023 20:37:07]</tr><br/>
+<tr><td class="info">INFO</td><td class="description"> PLATFORM: Android Version:9</td><td class="time">20:37:07</td></tr><br/>
+<tr><td colspan = "2" class="step">STEP 1: START: MTC_001_Sum_of_two_Numbers</td><td class="time">20:37:07</td></tr><br/>
+<tr><td class="action">STORE VISIBILITY</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')]) is visible</td><td class="time">20:37:11</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.five.btn(xpath = //android.widget.Button[contains(@content-desc, '5')]) is visible </td><td class="time">20:37:12</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')])</td><td class="time">20:37:12</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.plus.btn(xpath = //android.widget.Button[contains(@content-desc, '+')]) is visible </td><td class="time">20:37:12</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.plus.btn (//android.widget.Button[contains(@content-desc, '+')])</td><td class="time">20:37:13</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.five.btn(xpath = //android.widget.Button[contains(@content-desc, '5')]) is visible </td><td class="time">20:37:14</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')])</td><td class="time">20:37:14</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.equal.btn(xpath = //android.widget.Button[contains(@content-desc, '=')]) is visible </td><td class="time">20:37:14</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.equal.btn (//android.widget.Button[contains(@content-desc, '=')])</td><td class="time">20:37:15</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">MTC_001_Sum_of_two_Numbers: FINISHED</td><td class="time">20:37:15</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">Screenshot stored to C:\Users\semma\eclipse-workspace\Calculator\test-output\Default suite/../html/Screenshots/</td><td class="time">20:37:15</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description"><div style="border:0px solid; float:left;padding: 10px 10px 0px 0px">Screenshot<br><b>MTC_001_Sum_of_two_Numbers</b></div><div style="cursor:pointer" onclick="javascript:ImagePreview('Screenshots/01_MTC_001_Sum_of_two_Numbers.gif','MTC_001_Sum_of_two_Numbers');"><img src="Screenshots/01_MTC_001_Sum_of_two_Numbers.gif" style="height:100px;" border=0></div></td><td class="time">20:37:15</td></tr><br/>
+<tr><td colspan = "3"  class="headerTest"> End BTC_001_Check_addition_for_two_numbers [06/02/2023 20:37:15]</tr><br/>
+</table><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>calulator.qa.test.CalculatorHomePageTest@a38c7fe</td></tr>
+<tr>
+<td title='calulator.qa.test.CalculatorHomePageTest.BTC_001_Check_multiplication_for_two_numbers()'><b>BTC_001_Check_multiplication_for_two_numbers</b><br>Test class: calulator.qa.test.CalculatorHomePageTest<br/>
+<a href="#Output-1157199772" onClick='toggleBox("Output-1157199772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1157199772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1157199772">
+<a href="javascript:toggleElement('BTC_001_Check_multiplication_for_two_numbers_06022023203726', 'block')" title="Click to view test log"><b>BTC_001_Check_multiplication_for_two_numbers</b></a><br/>
+<table class="stepsTable" id="BTC_001_Check_multiplication_for_two_numbers_06022023203726"><br/>
+<tr><td colspan = "3"  class="headerTest">Start BTC_001_Check_multiplication_for_two_numbers_06022023203726 [06/02/2023 20:37:26]</tr><br/>
+<tr><td class="info">INFO</td><td class="description"> PLATFORM: Android Version:9</td><td class="time">20:37:26</td></tr><br/>
+<tr><td colspan = "2" class="step">STEP 1: START: MTC_001_Multiplication_of_two_Numbers</td><td class="time">20:37:26</td></tr><br/>
+<tr><td class="action">STORE VISIBILITY</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')]) is visible</td><td class="time">20:37:30</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.five.btn(xpath = //android.widget.Button[contains(@content-desc, '5')]) is visible </td><td class="time">20:37:31</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')])</td><td class="time">20:37:31</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.plus.btn(xpath = //android.widget.Button[contains(@content-desc, '+')]) is visible </td><td class="time">20:37:31</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.multiply.btn (//android.widget.Button[contains(@content-desc, 'x')])</td><td class="time">20:37:32</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.five.btn(xpath = //android.widget.Button[contains(@content-desc, '5')]) is visible </td><td class="time">20:37:33</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')])</td><td class="time">20:37:33</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.equal.btn(xpath = //android.widget.Button[contains(@content-desc, '=')]) is visible </td><td class="time">20:37:34</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.equal.btn (//android.widget.Button[contains(@content-desc, '=')])</td><td class="time">20:37:34</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">MTC_001_Sum_of_two_Numbers: FINISHED</td><td class="time">20:37:34</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">Screenshot stored to C:\Users\semma\eclipse-workspace\Calculator\test-output\Default suite/../html/Screenshots/</td><td class="time">20:37:35</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description"><div style="border:0px solid; float:left;padding: 10px 10px 0px 0px">Screenshot<br><b>MTC_001_Multiplication_of_two_Numbers</b></div><div style="cursor:pointer" onclick="javascript:ImagePreview('Screenshots/02_MTC_001_Multiplication_of_two_Numbers.gif','MTC_001_Multiplication_of_two_Numbers');"><img src="Screenshots/02_MTC_001_Multiplication_of_two_Numbers.gif" style="height:100px;" border=0></div></td><td class="time">20:37:35</td></tr><br/>
+<tr><td colspan = "3"  class="headerTest"> End BTC_001_Check_multiplication_for_two_numbers [06/02/2023 20:37:35]</tr><br/>
+</table><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>calulator.qa.test.CalculatorHomePageTest@a38c7fe</td></tr>
+<tr>
+<td title='calulator.qa.test.CalculatorHomePageTest.BTC_002_Check_subtraction_for_two_numbers()'><b>BTC_002_Check_subtraction_for_two_numbers</b><br>Test class: calulator.qa.test.CalculatorHomePageTest<br/>
+<a href="#Output-1827212229" onClick='toggleBox("Output-1827212229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1827212229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1827212229">
+<a href="javascript:toggleElement('BTC_002_Check_subtraction_for_two_numbers_06022023203745', 'block')" title="Click to view test log"><b>BTC_002_Check_subtraction_for_two_numbers</b></a><br/>
+<table class="stepsTable" id="BTC_002_Check_subtraction_for_two_numbers_06022023203745"><br/>
+<tr><td colspan = "3"  class="headerTest">Start BTC_002_Check_subtraction_for_two_numbers_06022023203745 [06/02/2023 20:37:45]</tr><br/>
+<tr><td class="info">INFO</td><td class="description"> PLATFORM: Android Version:9</td><td class="time">20:37:45</td></tr><br/>
+<tr><td colspan = "2" class="step">STEP 1: START: MTC_001_subtraction_of_two_Numbers</td><td class="time">20:37:45</td></tr><br/>
+<tr><td class="action">STORE VISIBILITY</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')]) is visible</td><td class="time">20:37:49</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.five.btn(xpath = //android.widget.Button[contains(@content-desc, '5')]) is visible </td><td class="time">20:37:49</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')])</td><td class="time">20:37:49</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.plus.btn(xpath = //android.widget.Button[contains(@content-desc, '+')]) is visible </td><td class="time">20:37:50</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.minus.btn (//android.widget.Button[contains(@content-desc, '-')])</td><td class="time">20:37:51</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.five.btn(xpath = //android.widget.Button[contains(@content-desc, '5')]) is visible </td><td class="time">20:37:51</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.five.btn (//android.widget.Button[contains(@content-desc, '5')])</td><td class="time">20:37:52</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.equal.btn(xpath = //android.widget.Button[contains(@content-desc, '=')]) is visible </td><td class="time">20:37:52</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.equal.btn (//android.widget.Button[contains(@content-desc, '=')])</td><td class="time">20:37:53</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">MTC_001_Sum_of_two_Numbers: FINISHED</td><td class="time">20:37:53</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">Screenshot stored to C:\Users\semma\eclipse-workspace\Calculator\test-output\Default suite/../html/Screenshots/</td><td class="time">20:37:53</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description"><div style="border:0px solid; float:left;padding: 10px 10px 0px 0px">Screenshot<br><b>MTC_001_subtraction_of_two_Numbers</b></div><div style="cursor:pointer" onclick="javascript:ImagePreview('Screenshots/03_MTC_001_subtraction_of_two_Numbers.gif','MTC_001_subtraction_of_two_Numbers');"><img src="Screenshots/03_MTC_001_subtraction_of_two_Numbers.gif" style="height:100px;" border=0></div></td><td class="time">20:37:53</td></tr><br/>
+<tr><td colspan = "3"  class="headerTest"> End BTC_002_Check_subtraction_for_two_numbers [06/02/2023 20:37:53]</tr><br/>
+</table><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>calulator.qa.test.CalculatorHomePageTest@a38c7fe</td></tr>
+<tr>
+<td title='calulator.qa.test.CalculatorHomePageTest.BTC_004_Check_divison_for_two_numbers()'><b>BTC_004_Check_divison_for_two_numbers</b><br>Test class: calulator.qa.test.CalculatorHomePageTest<br/>
+<a href="#Output-2126876651" onClick='toggleBox("Output-2126876651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2126876651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2126876651">
+<a href="javascript:toggleElement('BTC_004_Check_divison_for_two_numbers_06022023203804', 'block')" title="Click to view test log"><b>BTC_004_Check_divison_for_two_numbers</b></a><br/>
+<table class="stepsTable" id="BTC_004_Check_divison_for_two_numbers_06022023203804"><br/>
+<tr><td colspan = "3"  class="headerTest">Start BTC_004_Check_divison_for_two_numbers_06022023203804 [06/02/2023 20:38:04]</tr><br/>
+<tr><td class="info">INFO</td><td class="description"> PLATFORM: Android Version:9</td><td class="time">20:38:04</td></tr><br/>
+<tr><td colspan = "2" class="step">STEP 1: START: MTC_001_Division_of_two_Numbers</td><td class="time">20:38:04</td></tr><br/>
+<tr><td class="action">STORE VISIBILITY</td><td class="description">smartmobile.home.number.nine.btn (//android.widget.Button[contains(@content-desc, '9')]) is visible</td><td class="time">20:38:08</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.nine.btn(xpath = //android.widget.Button[contains(@content-desc, '9')]) is visible </td><td class="time">20:38:08</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.nine.btn (//android.widget.Button[contains(@content-desc, '9')])</td><td class="time">20:38:08</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.plus.btn(xpath = //android.widget.Button[contains(@content-desc, '+')]) is visible </td><td class="time">20:38:08</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.division.btn (//android.widget.Button[contains(@content-desc, '/')])</td><td class="time">20:38:09</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.number.three.btn(xpath = //android.widget.Button[contains(@content-desc, '3')]) is visible </td><td class="time">20:38:10</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.number.three.btn (//android.widget.Button[contains(@content-desc, '3')])</td><td class="time">20:38:10</td></tr><br/>
+<tr><td class="ok">OK</td><td class="description">Element smartmobile.home.action.equal.btn(xpath = //android.widget.Button[contains(@content-desc, '=')]) is visible </td><td class="time">20:38:11</td></tr><br/>
+<tr><td class="action">CLICK</td><td class="description">smartmobile.home.action.equal.btn (//android.widget.Button[contains(@content-desc, '=')])</td><td class="time">20:38:11</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">MTC_001_Division_of_two_Numbers: FINISHED</td><td class="time">20:38:11</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description">Screenshot stored to C:\Users\semma\eclipse-workspace\Calculator\test-output\Default suite/../html/Screenshots/</td><td class="time">20:38:12</td></tr><br/>
+<tr><td class="info">INFO</td><td class="description"><div style="border:0px solid; float:left;padding: 10px 10px 0px 0px">Screenshot<br><b>MTC_001_Division_of_two_Numbers</b></div><div style="cursor:pointer" onclick="javascript:ImagePreview('Screenshots/04_MTC_001_Division_of_two_Numbers.gif','MTC_001_Division_of_two_Numbers');"><img src="Screenshots/04_MTC_001_Division_of_two_Numbers.gif" style="height:100px;" border=0></div></td><td class="time">20:38:12</td></tr><br/>
+<tr><td colspan = "3"  class="headerTest"> End BTC_004_Check_divison_for_two_numbers [06/02/2023 20:38:12]</tr><br/>
+</table><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>calulator.qa.test.CalculatorHomePageTest@a38c7fe</td></tr>
+</table><p>
+</body>
+</html>
